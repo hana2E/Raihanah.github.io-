@@ -30,6 +30,13 @@ body{
     font-weight: bold;
     margin-top: 10px;
     font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 3s steps(28)
+}
+@keyframes typingAnim {
+    from {width: 0%;}
+    to {width: 100%;}
 }
 
 .profile h2{
